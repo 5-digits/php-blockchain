@@ -43,4 +43,4 @@ ile çıktıya erişebiliriz, çıktıya erişme süreniz belirleyeceğiniz Hash
 
 ## Sonuç Olarak
 
-[sonuc kısmı yazılacak, işler burada karmaşıkalşıyor]
+Elinize gizli bir bilgi geldiğini ve bu bilginin bizim tabirimizle dump'ının geldiğini düşünün. Bu bilginin doğrulunu ölçebilmek için BlockChain'den yararlanabilirisiniz. Yapmanız gereken ilk önce bu bilgiyi Blockchain ile oluşturmak daha sonra bu dump'u karşıdakine vermek. (Dağıtık hale getirmek.) Daha sonraki zamanlarda bu bilgiyi alan kişiler bilgiyi doğrulamak için Blockchain'den geçirmeli, eğer size verilen dump ile sizin Blockchain'den geçirdiğiniz dump aynı ise elinizdeki veri orijinaldir diyebilirsiniz.
