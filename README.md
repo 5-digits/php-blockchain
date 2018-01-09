@@ -35,3 +35,12 @@ Ve Hash'de belirli bir kural belirtmek gerektiğinden isteğe bağlı olarak  *a
 yazarız. Bu belirleyeceğiniz kural ne kadar zor olursa,  nonce değeri o kadar büyük olur ve zamandan kaybedersiniz. Belki de *maxNonce* değerini bile aşabilirsiniz, böyle bir durumda sistem doğru bir şekilde çalışmaz.
 *maxNonce* değeri default olarak 1000000'a ayarlanmıştır.
 
+## Çıktının üretilmesi
+
+	$blockchain->dump();
+
+ile çıktıya erişebiliriz, çıktıya erişme süreniz belirleyeceğiniz Hash kuralına, bilgisayarınız özelliklerine göre değiştir. Eğer PHP'nin bize vereceği Array sonucu, JSON'a çevirirsek (lütfen example/dump.json'a bakın), verinin bloklar halinde olduğunu ve her bloğun önceki bloğa prevHash ile bağlandığını görürüz. Örnekteki block değeri de bu sayede anlamsız kalıyor.
+
+## Sonuç Olarak
+
+[sonuc kısmı yazılacak, işler burada karmaşıkalşıyor]
