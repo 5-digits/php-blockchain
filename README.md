@@ -1,7 +1,7 @@
 #php-blockchain
 Bu repo'nun amacı blockchain yaklaşımı ile toplu şekilde duran verilerin şifrelenip güvenle saklanmasını anlatmak. Anlatımlar PHP üzerinden ve İstiklal Marşı'nın 2 kıtasının şifrelenmesiyle yapıldı.
 
-**SHA256**: Belirli bir string'i şifreleyerek, (metin uzunluğu ne olursa olsun) 64 bitlik bir string döndüren kırpma algoritması
+**SHA256**: Belirli bir string'i şifreleyerek, (metin uzunluğu ne olursa olsun) 64 byte bir string döndüren kırpma algoritması
 **Block**: En küçük veri grubu, örneğin: bir insanın bilgileri, istiklal marşının her kıtası
 **BlockChain**: Blocklardan meydana gelen zincir.
 
